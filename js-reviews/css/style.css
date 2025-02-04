@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: aliceblue;
+}
+
+section {
+  max-width: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+
+section main {
+  min-width: 60vh;
+  min-height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+section .title {
+  padding: 10px;
+  color: #333;
+}
+
+section .review {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section .underline {
+  height: 3px;
+  width: 25%;
+  background-color: #333;
+  margin: auto;
+}
+
+section .photo {
+  position: relative;
+}
+
+section .photo .user {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  -webkit-box-shadow: #ff961d 4px -2px 0px 0.5px;
+          box-shadow: #ff961d 4px -2px 0px 0.5px;
+}
+
+section .photo .img-quote {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10%;
+}
+
+section .user,
+section .role {
+  padding: 1px;
+}
+
+section .user {
+  color: #333;
+}
+
+section .role {
+  text-transform: uppercase;
+  color: #ff961d;
+}
+
+section .description {
+  width: 100vh;
+  max-height: 95%;
+  height: 250px;
+  overflow: auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin: 0 10px 0 10px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: #333;
+}
+
+section .btns {
+  padding: 5px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 32px;
+}
+
+section .btns .left,
+section .btns .right {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #ff961d;
+  background-color: #fff;
+  color: #ff961d;
+}
+
+button:hover {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */
